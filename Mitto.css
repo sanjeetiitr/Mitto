@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+
 /*************************************
 General classes
 *************************************/
@@ -53,12 +55,12 @@ width: 100%;
 
 background-color: #f8f8f8;
 background-size: cover;
-padding: 10% 0 ; 
+padding: 10% 0 ;
 z-index: 2;
 position: relative;
 
 }
-@media only screen 
+@media only screen
 and (max-width : 480px) {
 	#harness_section{
 		padding: 25% 0;
@@ -82,14 +84,13 @@ and (max-width : 480px) {
     width: 80px;
     background-color: #00aeff;
     bottom: 0;
-    
-    
+
+
 }
 .harness_para{
 	font-size: 16px;
 	color: #777;
 	text-align: justify;
->>>>>>> 0b8bbf595f8c672d3e06ae11a4053a93a7cbb136
 }
 #section3{
 width:100%;
@@ -149,4 +150,56 @@ p3{
 font-size: 3vh;
 color: white;
 }
+}
+
+
+
+
+.box-style{
+  height:auto;
+  padding-top:3%;
+  padding-bottom: 3%;
+}
+.icon-work-1{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/user.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-2{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/log.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-3{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/code.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-4{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/chart.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-5{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/thunder.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div h3{
+  font-weight: 300;
 }
