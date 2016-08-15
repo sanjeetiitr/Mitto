@@ -2,303 +2,54 @@
  box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
+}
  html,body{
 width:100%;
 height:100%;
 }
-ul.top_nav {
-    display: -webkit-flex;
-        display: flex;
-     -webkit-align-items: center;
-        align-items: center;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:20%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0px 20px 0px 20px;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.top_nav > li {
-    float: right;
-}
-
-.top_nav > li a {
-    display: block;
-    color: #444;
-    text-align: center;
-    font-family: sans-serif;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.navbar .nav li a {
-    display: block;
-    font-size: 14px;
-    height: 62px;
-    line-height: 60px;
-    padding: 0 20px;
-    text-decoration: none;
-    outline: none;
-    background: inherit;
-}
-#enfoldpng{
-position:absolute;
-left:3%;
-top:0;
-height:100%;
-    
+nav{
+position:fixed;
+top:10px;
 }
 #section1{
 width:100%;
 height:100%;
 background-image:url("http://image.shutterstock.com/z/stock-photo-runner-athlete-running-at-seaside-woman-fitness-silhouette-sunrise-jogging-workout-wellness-227716831.jpg");
 background-repeat: no-repeat;
-background-size: cover;    
-}
-#section11{
-width:100%;
-height:100%;
-background-color:rgba(0, 0, 0,0.5);
-display: -webkit-flex;
-        display: flex;
--webkit-align-items: flex-end;
-        align-items: flex-end;
-
-    
-}
-#section111{
-height:80%;
-width:60%;
-display: -webkit-flex;
-        display: flex;
--webkit-justify-content: center;
-        justify-content: center;
--webkit-flex-direction: column;
-    flex-direction: column;
-padding-left:5%;
-}
-#section112{
-height:90%;
-width:40%;
-display: -webkit-flex;
-        display: flex;
--webkit-justify-content: center;
-        justify-content: center;
-}
-#play1{
-position:relative;    
-width:100px;
-height:100px;
-margin:auto;    
-}
-#play{
-position:absolute;
-top:0;
-left:0;    
-width:100px;
-height:100px;
-border-radius: 50%;
-border:2px solid white;
-margin:auto;
-display: -webkit-flex;
-        display: flex;
--webkit-justify-content: center;
-        justify-content: center;   
-}
-#play2{
-position:absolute;
-top:0;
-left:0;    
-width:100px;
-height:100px;
-border-radius: 50%;
-border:2px solid white;
-margin:auto;  
-}
-#play img{
-margin:auto;    
-}
-#play2:hover{
-  -webkit-animation: ripple 1s linear;
-  animation: ripple 1s linear;
-  cursor: pointer;
-}
-@-webkit-keyframes ripple{
-  0% {-webkit-transform:scale(1);border:2px solid rgba(255, 255, 255, 0.5) }
-  75% {-webkit-transform:scale(1.75); opacity:1;border:6px solid rgba(255, 255, 255, 0.5)}
-  100% {-webkit-transform:scale(2); opacity:0;border:8px solid rgba(255, 255, 255, 0.5)}
-}
-@keyframes ripple{
-  0% {transform:scale(1);border:2px solid rgba(255, 255, 255, 0.5) }
-  75% {transform:scale(1.2); opacity:1;border:6px solid rgba(255, 255, 255, 0.5)}
-  100% {transform:scale(1.5); opacity:0;border:8px solid rgba(255, 255, 255, 0.5)}
-}
-#text1,#text2,#text3{
-font-size: 3vw;
-font-size: 7vh;
-color:white;
-font-family: sans-serif;
-}
-#text2{
-color:#38b5ab;    
+background-size: cover;
 }
 #section2{
 width:100%;
 height:100%;
-background-color:white; 
-padding: 6% 0 6% 0;
-}
-.what_we_do_section{
-  font-family: Lato;
-  margin: auto;
-  text-align: center;
-  color: #222222; 
-}
-.what_we_do_explain{
-
-}
-.what_we_do_heading{
-  
-}
-.what_we_do_para{
-  color: #9d9d9d;
-  
-}
-.what_we_do_links{
-  color: #38b5ad;
-  
-}
-.dash_section{
-  font-size: 7vh;
-  text-align: center;
-  margin-bottom: 7%;
+background-color:blueviolet;
 }
 #section3{
 width:100%;
 height:100%;
-background-color: gray;    
+background-color: aquamarine;
 }
 #section4{
 width:100%;
-height:20%;
-background-color: gray;   
-text-align: center; 
-}
-.button_link_learnmore{
-  width: cover;
-  height: 100%;
-  display: block;
-  color: white;
-  background: #4ecac2;
-  text-align: center;
-  
-}
-.button_link_learnmore:hover{
-  background: #404040;
-  color: white;
-  text-decoration: none;
-   -webkit-transition: all 1s linear;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-;
-}
-.vertical_center_text{
-  font-size: 3vh;
-
+height:100%;
+background-color: blueviolet;
 }
 #section5{
 width:100%;
 height:100%;
-background-color: aqua;    
+background-color: aquamarine;
 }
 #section6{
 width:100%;
 height:100%;
-background-color: lightsteelblue;    
+background-color:blueviolet;
 }
 #section7{
 width:100%;
 height:100%;
-background-color: aqua;    
+background-color: aquamarine;
 }
 #section8{
 width:100%;
 height:100%;
-background-color: lightsteelblue;    
-}
-#footer{
-width:100%;
-height:45%;
-background-color: #222222;   
-padding-top: 3%;
-  padding-bottom: 5%; 
-}
-.footer_heading{
-  color: #555555;
-  font-size: 2.5vh;
-  font-weight: 600;
-}
-.footer_para{
-  color: #dddddd;
-}
-
-#section10{
-width:100%;
-height:9%;
-background-color: #444444;    
-}
-.copyright_text{
-  color: white;
-}
-.copyright_text:hover{
-  color: #808080;
-};
-#scroll-to-top {
-    position: fixed;
-    
-    background: rgb(0, 240, 0);
-    background: rgba(0, 240, 0, 0.7);
-    
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-
-}
-#scroll-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-#return-to-top:hover {
-    background: rgba(240, 0, 0, 0.9);
-}
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
+background-color: blueviolet;
 }
