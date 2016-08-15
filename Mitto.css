@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+
 /*************************************
 General classes
 *************************************/
@@ -53,12 +55,12 @@ width: 100%;
 
 background-color: #f8f8f8;
 background-size: cover;
-padding: 10% 0 ; 
+padding: 10% 0 ;
 z-index: 2;
 position: relative;
 
 }
-@media only screen 
+@media only screen
 and (max-width : 480px) {
 	#harness_section{
 		padding: 25% 0;
@@ -66,15 +68,33 @@ and (max-width : 480px) {
 }
 
 .title h2{
-	font-size: 28px;
-	padding: 0 0 6% 0;
-	margin: 0 0 9% 0;
-	color: #444;
-	position: relative;
-	display: block;
-	font-weight: lighter;
+font-size: 28px;
+padding: 0 0 6% 0;
+margin: 0 0 9% 0;
+color: #444;
+position: relative;
+display: block;
+font-weight: lighter;
+}
+@media only screen 
+and (max-width : 767px) {
+	.title h2{
+		padding: 0 0 4% 0;
+		margin: 0 0 6% 0;
+	}
 }
 .title h2 ::after{
+<<<<<<< HEAD
+content: "";
+display: block;
+position: absolute;
+height: 2px;
+width: 80px;
+background-color: #00aeff;
+bottom: 0;
+    
+    
+=======
 	content: "";
     display: block;
     position: absolute;
@@ -82,16 +102,59 @@ and (max-width : 480px) {
     width: 80px;
     background-color: #00aeff;
     bottom: 0;
-    
-    
+
+
+>>>>>>> 94ae3cd3052023e1c68c157c8d21fe63a9ddb39f
 }
 .harness_para{
-	font-size: 16px;
-	color: #777;
-	text-align: justify;
->>>>>>> 0b8bbf595f8c672d3e06ae11a4053a93a7cbb136
+font-size: 16px;
+color: #777;
+text-align: justify;
 }
+.screen-couple-left{
+position: relative;
+overflow: hidden;
+max-width: 380px;
+min-width: 280px;
+z-index: 100;
+}
+<<<<<<< HEAD
 #features{
+=======
+@media only screen and (max-width: 479px) {
+	.screen-couple-left{
+   		max-width: 290px;	
+	}
+}
+.screen-couple-right, .screen-couple-left:after{
+content: "";
+display: block;
+clear: both;
+}
+.screen-couple-right, .screen-couple-left .above{
+z-index: 3;
+}
+.screen-couple-left .screen{
+position: relative;
+float: left;
+}
+.screen-couple-left .beyond{
+	right: 0;
+}
+.screen-couple-right .beyond, .screen-couple-left .beyond {
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+}
+@media only screen and (max-width: 767px) {
+	.screen-couple-right, .screen-couple-left{
+    	margin: 50px auto 0 auto;
+	}
+}
+
+
+#section3{
+>>>>>>> 8ee68b2100aaca3a629e77e2a030d0c9858a2c6b
 width:100%;
 padding:120px 0;
 background-color: white;
@@ -200,4 +263,56 @@ p3{
 font-size: 3vh;
 color: white;
 }
+}
+
+
+
+
+.box-style{
+  height:auto;
+  padding-top:3%;
+  padding-bottom: 3%;
+}
+.icon-work-1{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/user.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-2{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/log.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-3{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/code.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-4{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/chart.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon-work-5{
+  height: 100px;
+  width: 100%;
+  background-image: url("img/thunder.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div h3{
+  font-weight: 300;
 }
