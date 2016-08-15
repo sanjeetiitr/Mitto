@@ -84,7 +84,6 @@ and (max-width : 767px) {
 	}
 }
 .title h2 ::after{
-<<<<<<< HEAD
 content: "";
 display: block;
 position: absolute;
@@ -92,19 +91,6 @@ height: 2px;
 width: 80px;
 background-color: #00aeff;
 bottom: 0;
-    
-    
-=======
-	content: "";
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 80px;
-    background-color: #00aeff;
-    bottom: 0;
-
-
->>>>>>> 94ae3cd3052023e1c68c157c8d21fe63a9ddb39f
 }
 .harness_para{
 font-size: 16px;
@@ -118,9 +104,6 @@ max-width: 380px;
 min-width: 280px;
 z-index: 100;
 }
-<<<<<<< HEAD
-#features{
-=======
 @media only screen and (max-width: 479px) {
 	.screen-couple-left{
    		max-width: 290px;	
@@ -154,7 +137,6 @@ float: left;
 
 
 #section3{
->>>>>>> 8ee68b2100aaca3a629e77e2a030d0c9858a2c6b
 width:100%;
 padding:120px 0;
 background-color: white;
