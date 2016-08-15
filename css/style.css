@@ -22,7 +22,7 @@ height:100%;
 padding: 10%;
 width:100%;
 height:auto;
-background-image:url("sports2.jpg");
+background-image:url("../img/sports2.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 overflow: hidden;
@@ -76,7 +76,7 @@ position: relative;
 display: block;
 font-weight: lighter;
 }
-@media only screen 
+@media only screen
 and (max-width : 767px) {
 	.title h2{
 		padding: 0 0 4% 0;
@@ -106,7 +106,7 @@ z-index: 100;
 }
 @media only screen and (max-width: 479px) {
 	.screen-couple-left{
-   		max-width: 290px;	
+   		max-width: 290px;
 	}
 }
 .screen-couple-right, .screen-couple-left:after{
@@ -220,8 +220,6 @@ and (max-width : 480px) {
 }
 #delivery_section{
 width: 100%;
-
-background-color: #f8f8f8;
 background-size: cover;
 padding: 10% 0 ;
 z-index: 2;
@@ -281,7 +279,7 @@ color: white;
 .icon-work-1{
   height: 100px;
   width: 100%;
-  background-image: url("img/user.png");
+  background-image: url("../img/user.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -289,7 +287,7 @@ color: white;
 .icon-work-2{
   height: 100px;
   width: 100%;
-  background-image: url("img/log.svg");
+  background-image: url("../img/log.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -297,7 +295,7 @@ color: white;
 .icon-work-3{
   height: 100px;
   width: 100%;
-  background-image: url("img/code.svg");
+  background-image: url("../img/code.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -305,7 +303,7 @@ color: white;
 .icon-work-4{
   height: 100px;
   width: 100%;
-  background-image: url("img/chart.svg");
+  background-image: url("../img/chart.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -313,7 +311,7 @@ color: white;
 .icon-work-5{
   height: 100px;
   width: 100%;
-  background-image: url("img/thunder.svg");
+  background-image: url("../img/thunder.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
