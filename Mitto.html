@@ -8,8 +8,13 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href='Mitto.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="jquery-ui-1.12.0.custom/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="jquery-ui-1.12.0.custom/jquery-ui.js"></script>
+<script src="parallax.js-1.4.2/parallax.min.js"></script>
+<script src="parallax.js-1.4.2/parallax.js"></script>
+
 </head>
 
 
@@ -30,18 +35,18 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Diets</a></li>
-        <li><a href="#">Fitness</a></li>
+        <li><a id="homebutton" href="#">Home</a></li>
+        <li><a id="harnessbutton" href="#">Diets</a></li>
+        <li><a id="featuresbutton" href="#">Fitness</a></li>
         <li><a href="#">Find a partner</a></li>
         <li><a href="#">How it works</a></li>
         <li><a href="#">Blogs</a></li>
         <li><a href="#">Powerhouse</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Features</a></li>
-        <li><a href="#">Grocery</a></li>
+        <li><a id="areuonabutton" href="#">Grocery</a></li>
         <li><a href="#">About us</a></li>
-        <li style="border-left:2px solid #E4E4E4;"><a href="#"><span style="font-size:2.7vh" class="glyphicon glyphicon-envelope"></span></a></li>
+        <li style="border-left:2px solid #E4E4E4;"><a href="#"><span style="font-size:2.7vh" class="glyphicon glyphicon-envelope hidden-xs"></span></a></li>
       </ul>
 
     </div>
@@ -73,8 +78,8 @@
         <div class= "screen-couple-left" style="visibility:visible;">
           <div></div>
           <div></div>
-          <img class="screen above" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_above_v21.png" alt="" height="440" width="">
-          <img src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_beyond_v21.png" class="screen beyond wow fadeInLeft animated" data-animation="fadeInLeft" data-wow-delay="0.5s" height="360" alt="" width="" style="visibility: visible;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+          <img id="harnessphone1" class="screen above" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_above_v21.png" alt="" height="440" width="">
+          <img id="harnessphone2" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_beyond_v21.png" class="screen beyond wow fadeInLeft animated" data-animation="fadeInLeft" data-wow-delay="0.5s" height="360" alt="" width="" style="visibility: visible;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
 
         </div>
       </div>
@@ -107,7 +112,7 @@
            </div>
         </div>
         <div id="builder-column-5476c138c37a7" class="span4 col-md-4 column_first">
-            <ul class="item-list-right item-list-big">
+            <ul id="features_ul_1" class="item-list-right item-list-big">
                 <li data-animation="fadeInLeft" data-wow-delay="s" class="wow fadeInLeft animated" style="visibility: visible;-webkit-animation-delay: s; -moz-animation-delay: s; animation-delay: s;">
                      <i class="icon  icon-screen-desktop"></i>
                      <h3 class="">RESPONSIVE DESIGN</h3>
@@ -127,11 +132,11 @@
         </div>
         <div id="builder-column-5476c13b41a14" class="span4 col-md-4">
             
-                <img class="screen" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/features_screen1.png" alt="" height="581" width="300">
+               <img id="bouncingphone" class="screen" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/features_screen1.png" alt="" height="581" width="300">
            
         </div>
         <div id="builder-column-5476c13d52bfb" class="span4 col-md-4 column_last">
-            <ul class="item-list-left item-list-big">
+            <ul id="features_ul_2" class="item-list-left item-list-big">
                 <li data-animation="fadeInRight" data-wow-delay="s" class="wow fadeInRight animated" style="visibility: visible;-webkit-animation-delay: s; -moz-animation-delay: s; animation-delay: s;">
                     <i class="icon  icon-diamond"></i>
                     <h3 class="">PURE &amp; SIMPLE</h3>
@@ -157,47 +162,133 @@
  <div id="section5"></div>
  <div id="section6"></div>
  <div id="section7"></div>
- <div id="section8"></div>
+    
+    
+ <div id="are_u_on_a">
+    
+  <div class="container">
+  <h1>ARE YOU ON A MITO FITNESS PLAN YET?</h1></br>
+  <p2>___________</br></br>Mito's fitness module runs on a unique algorithm which studies and adapts to your fitness routine and recommends ways of staying healthy via adjustments to your current activities. Making it that much more eaasy for you to take your fitness routine to the next level.</p2></br></br></br>
+  <p3>Live the Mito life</p3></br></br>
+  <button type="button" class="btn btn-info">download for App</button>
+  </div>  
+    
+ </div>
 
 <!--section how mitto works starts-->
-<section>
+<section style="background-color:white;">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2 col-md-offset-1 text-center box-style" >
-        <div class="icon-work-1"></div>
-        <h2>Profile Global</h2>
-        <h3>Mito takes your profile, taste preferences, dietary needs along with your health and fitness goals and builds a tailored program for a healthier you</h3>
+        <div style="font-size:10%;" class="icon-work-1"></div>
+        <h2>Profile Global</h2></br>
+        <p2 style="color:grey;">Mito takes your profile, taste preferences, dietary needs along with your health and fitness goals and builds a tailored program for a healthier you</p2>
       </div>
       <div class="col-md-2 col-md-offset-0 text-center box-style" >
         <div class="icon-work-2"></div>
-        <h2>Profile Global</h2>
-        <h3>Log meals, exercise, water and sleep so Mito can learn more about you and your habits. Every time you log any activity, you are rewarded with Mito coins</h3>
+        <h2>Profile Global</h2></br>
+        <p2 style="color:grey;">Log meals, exercise, water and sleep so Mito can learn more about you and your habits. Every time you log any activity, you are rewarded with Mito coins</p2>
       </div>
       <div class="col-md-2 col-md-offset-0 text-center box-style" >
         <div class="icon-work-3"></div>
-        <h2>Profile Global</h2>
-        <h3>Mito’s diet module runs on a unique algorithm which studies and adapts to your diet, and is supported by our team of expert nutritionists who empower Mito in learning and recommending the perfect diet for you</h3>
+        <h2>Profile Global</h2></br>
+        <p2 style="color:grey;">Mito’s diet module runs on a unique algorithm which studies and adapts to your diet, and is supported by our team of experts</p2>
       </div>
       <div class="col-md-2 col-md-offset-0 text-center box-style">
         <div class="icon-work-4"></div>
-        <h2>Profile Global</h2>
-        <h3>Mito gives you real-time feedback and helps you stay on track towards your fitness goals</h3>
+        <h2>Profile Global</h2></br>
+        <p2 style="color:grey;">Mito gives you real-time feedback and helps you stay on track towards your fitness goals</p2>
       </div>
       <div class="col-md-2 col-md-offset-0 text-center box-style">
         <div class="icon-work-5"></div>
-        <h2>Profile Global</h2>
-        <h3>Get fitter and healthier. Become an inspiration to your family and friends. Live the Mito life</h3>
+          <h2>Profile Global</h2></br>
+        <p2 style="color:grey;">Get fitter and healthier. Become an inspiration to your family and friends. Live the Mito life</p2>
       </div>
     </div>
   </div>
 </section>
 <!--section how mitto works starts-->
 
+
+<div id="section9"></div>
+
+
+
 </body>
 
 
 
 <script>
+    
+$(document).ready(function(){   
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    var distance1=$("#fullintro").height();
+    var distance2=$("#fullintro").height()+($("#harness_section").height()/2);
+    if(distanceFromTop>(distance1/2) && distanceFromTop<((distance1/2)+50))
+    {
+    $("#harnessphone1,#harnessphone2").show();    
+    $("#harnessphone1").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1000);
+    $("#harnessphone2").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1300);
+    }
+});
+});
+
+$(document).ready(function(){   
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    var distance2=$("#fullintro").height()+($("#harness_section").height()/1.2);
+    if(distanceFromTop>distance2 && distanceFromTop<(distance2+50))
+        {
+        $("#bouncingphone").stop(true, true).effect("slide", { direction: "down",times: 1 }, 1000);
+        $("#builder-column-5476c138c37a7").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1300);
+        $("#builder-column-5476c13d52bfb").stop(true, true).effect("slide", { direction: "right",times: 1}, 1300);    
+        }
+});
+});
+    
+    
+//for parallax of are_u_on_a section   
+$('#are_u_on_a').parallax({imageSrc: 'weights.jpg'});
+    
+//scrolling to a div through the navbar
+$("#homebutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#fullintro").offset().top},
+        'slow');
+});
+$(document).ready(function(){ 
+$("#harnessbutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#harness_section").offset().top},
+        'slow');
+     $("#harnessphone1").effect("slide", { direction: "left" }, 700);
+    $("#harnessphone2").effect("slide", { direction: "left" }, 1000);
+});
+});
+$("#featuresbutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#features").offset().top},
+        'slow');
+    $("#bouncingphone").effect("slide", { direction: "down" }, 1000);
+    $("#bouncingphone").effect("bounce", { distance: 10 }, 1000);
+    $("#builder-column-5476c138c37a7").effect("slide", { direction: "left" }, 1000);
+    $("#builder-column-5476c13d52bfb").effect("slide", { direction: "right" }, 1000);
+                 
+    
+    
+});
+$("#areuonabutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#are_u_on_a").offset().top},
+        'slow');
+});
+    
+    
+$(window).scroll(function(){
+var distanceFromTop = $(document).scrollTop();
+$("#areuonabutton").text(distanceFromTop);    
+});
 
 </script>
 
