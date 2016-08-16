@@ -7,8 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href='Mitto.css' rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" href="jquery-ui-1.12.0.custom/jquery-ui.css">
+
+<link href='css/style.css' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="jquery-ui-1.12.0.custom/jquery-ui.js"></script>
@@ -37,11 +39,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a id="homebutton" href="#">Home</a></li>
         <li><a id="harnessbutton" href="#">Diets</a></li>
-        <li><a id="featuresbutton" href="#">Fitness</a></li>
-        <li><a href="#">Find a partner</a></li>
-        <li><a href="#">How it works</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Powerhouse</a></li>
+        <li><a id="howmittoworksbutton" href="#">Fitness</a></li>
+        <li><a id="featuresbutton" href="#">Find a partner</a></li>
+        <li><a id="are_u_on_abutton" href="#">How it works</a></li>
+        <li><a id="friendsbutton" href="#">Blogs</a></li>
+        <li><a id="deliverybutton" href="#">Powerhouse</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Features</a></li>
         <li><a id="areuonabutton" href="#">Grocery</a></li>
@@ -71,10 +73,18 @@
  <div id="section2"></div>
 <div id="section1"></div>
 
-<section id = "harness_section">
+<section id = "harness_section" style="background-color:white;">
   <div class="container">
     <div class="row">
-      <div class = "col-xs-12 col-md-6">
+      <div class = "col-xs-12 col-sm-8 col-sm-offset-2" style="text-align:center;padding:5% 0">
+        <h1>Mito. Not just another Health App</h1>
+        <p>There is abundance of Health apps in the market.</p>
+        <p>And yet, every 1 out of 3 people in the world is obese, 1 out of 4 suffers from hypertension and 1 out of 6 experiences heart and lung ailments.</p>
+        <p>With Mito, we realize that the solution to health and fitness issues lies in connected sciences. Mito combines your raw personal data, habits and psychology with intelligent adaptive software and robust hardware to bring you the most comprehensive way of keeping healthy and fit.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class = "col-xs-12 col-md-6" >
         <div class= "screen-couple-left" style="visibility:visible;">
           <div></div>
           <div></div>
@@ -85,12 +95,11 @@
       </div>
       <div class = "col-xs-12 col-md-6">
         <div class ="title title-left">
-          <h2><strong>MITO: </strong>HARNESS YOUR POWERHOUSE</h2>
+          <h2>About Mito</h2>
 
         </div>
-        <div>
-          <p class="harness_para">MITO is dericed from Mitochondria-the power generators of cells in our body.</p>
-          <p class="harness_para">In the same breath MITO the health app is your power to a healthier you. </p>
+        <div style="padding:2% 5%;">
+
           <p class="harness_para">We're all different.Our bodies react differently to similar food items and exercise regimes. This is why MITO scientifically determines the best foods and proper calorie intake required for you as an individual. It takes into account your lifestyle,you health goals, your food preferences and eating habits, your unique biochemistry... essentially everything that makes you the unique person you are.</p>
           <p class="harness_para">Then it takes all the information to devise the perfect fitness and diet plan to fuel the unique powerhouse that you are. Most importantly MITO helps you to sustain these plans thorugh your life time.</p>
           <h6 style="font-size:16px;font-weight:600;color:#505050;">Energize yourself - Live the MITO life</h6>
@@ -101,12 +110,49 @@
   </div>
 
 </section>
-    
+
+
+<!--section how mitto works starts-->
+<section id="howmittoworks">
+  <div class="container-fluid" style="background-color:#f8f8f8;">
+    <h2 class="text-center" style="font-weight:300;padding-top:3%;">HOW MITO WORKS ?</h2>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1 text-center box-style" >
+        <div class="icon-work-1"></div>
+        <h4>Profile Global</h4>
+        <p>Mito takes your profile, taste preferences, dietary needs along with your health and fitness goals and builds a tailored program for a healthier you</p>
+      </div>
+      <div class="col-md-2 col-md-offset-0 text-center box-style" >
+        <div class="icon-work-2"></div>
+        <h4>Profile Global</h4>
+        <p>Log meals, exercise, water and sleep so Mito can learn more about you and your habits. Every time you log any activity, you are rewarded with Mito coins</p>
+      </div>
+      <div class="col-md-2 col-md-offset-0 text-center box-style" >
+        <div class="icon-work-3"></div>
+        <h4>Profile Global</h4>
+        <p>Mito’s diet module runs on a unique algorithm which studies and adapts to your diet, and is supported by our team of expert nutritionists who empower Mito in learning and recommending the perfect diet for you</p>
+      </div>
+      <div class="col-md-2 col-md-offset-0 text-center box-style">
+        <div class="icon-work-4"></div>
+        <h4>Profile Global</h4>
+        <p>Mito gives you real-time feedback and helps you stay on track towards your fitness goals</p>
+      </div>
+      <div class="col-md-2 col-md-offset-0 text-center box-style">
+        <div class="icon-work-5"></div>
+        <h4>Profile Global</h4>
+        <p>Get fitter and healthier. Become an inspiration to your family and friends. Live the Mito life</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--section how mitto works starts-->
+
+<!--section Brilliant starts-->
 
  <section id="features">
     <div class="container">
         <div class="span12 col-md-12 column_first column_last">
-            <div class="title">
+            <div class="title" style="padding-top:3%;">
                 <h2 style="text-align:center;">BRILLIANT FEATURES</h2>
                 <p style="text-align:center;">Here are several causes that make our template worth paying attention to</p>
            </div>
@@ -131,9 +177,11 @@
             </ul>
         </div>
         <div id="builder-column-5476c13b41a14" class="span4 col-md-4">
+
             
                <img id="bouncingphone" class="screen" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/features_screen1.png" alt="" height="581" width="300">
            
+
         </div>
         <div id="builder-column-5476c13d52bfb" class="span4 col-md-4 column_last">
             <ul id="features_ul_2" class="item-list-left item-list-big">
@@ -146,7 +194,7 @@
                     <i class="icon  icon-layers"></i>
                     <h3 class="">DOCUMENTATION</h3>
                     <p>The detailed documentation will help you in adjusting the project with little effort according to your requirements.</p>
-		        </li>   
+		        </li>
                 <li data-animation="fadeInRight" data-wow-delay="s" class="wow fadeInRight animated" style="visibility: visible;-webkit-animation-delay: s; -moz-animation-delay: s; animation-delay: s;">
                     <i class="icon  icon-basket-loaded"></i>
                     <h3 class="">MULTIPLATFORM</h3>
@@ -156,12 +204,8 @@
         </div>
     </div>
  </section>
-    
-    
- <div id="section4"></div>
- <div id="section5"></div>
- <div id="section6"></div>
- <div id="section7"></div>
+
+ 
     
     
  <div id="are_u_on_a">
@@ -176,38 +220,89 @@
  </div>
 
 <!--section how mitto works starts-->
-<section style="background-color:white;">
-  <div class="container-fluid">
+
+
+<!--section Brilliant ends-->
+
+
+ <!--div id="section4"></div>
+ <div id="section5"></div-->
+
+
+
+<!--section friends starts-->
+
+<section id = "friends_section">
+  <div class="container">
     <div class="row">
-      <div class="col-md-2 col-md-offset-1 text-center box-style" >
-        <div style="font-size:10%;" class="icon-work-1"></div>
-        <h2>Profile Global</h2></br>
-        <p2 style="color:grey;">Mito takes your profile, taste preferences, dietary needs along with your health and fitness goals and builds a tailored program for a healthier you</p2>
+
+      <div class = "col-xs-12 col-md-6">
+        <div class ="title title-left">
+          <h2>MAKE MITO FRIEND AND STAY HEALTHY</h2>
+
+        </div>
+        <div>
+          <p class="harness_para">Do you find it difficult to follow your gym regime alone? MITO, the health App which not only helps you stay healthy but also connects you to like minded people so you can stay motivated.</p>
+          <p class="harness_para">Our Partner Connect module helps you connect to like minded people  around so you can run, cycle, swim or ghym with them and stay motivated for life.</p>
+
+        </div>
       </div>
-      <div class="col-md-2 col-md-offset-0 text-center box-style" >
-        <div class="icon-work-2"></div>
-        <h2>Profile Global</h2></br>
-        <p2 style="color:grey;">Log meals, exercise, water and sleep so Mito can learn more about you and your habits. Every time you log any activity, you are rewarded with Mito coins</p2>
+      <div class = "col-xs-12 col-md-6">
+        <div class= "screen-couple-left" style="visibility:visible;">
+          <div></div>
+          <div></div>
+          <img id="friendsphone1" class="screen above" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_above_v21.png" alt="" height="440" width="">
+          <img id="friendsphone2" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_beyond_v21.png" class="screen beyond wow fadeInLeft animated" data-animation="fadeInLeft" data-wow-delay="0.5s" height="360" alt="" width="" style="visibility: visible;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+
+        </div>
       </div>
-      <div class="col-md-2 col-md-offset-0 text-center box-style" >
-        <div class="icon-work-3"></div>
-        <h2>Profile Global</h2></br>
-        <p2 style="color:grey;">Mito’s diet module runs on a unique algorithm which studies and adapts to your diet, and is supported by our team of experts</p2>
-      </div>
-      <div class="col-md-2 col-md-offset-0 text-center box-style">
-        <div class="icon-work-4"></div>
-        <h2>Profile Global</h2></br>
-        <p2 style="color:grey;">Mito gives you real-time feedback and helps you stay on track towards your fitness goals</p2>
-      </div>
-      <div class="col-md-2 col-md-offset-0 text-center box-style">
-        <div class="icon-work-5"></div>
-          <h2>Profile Global</h2></br>
-        <p2 style="color:grey;">Get fitter and healthier. Become an inspiration to your family and friends. Live the Mito life</p2>
-      </div>
+
     </div>
   </div>
+
 </section>
-<!--section how mitto works starts-->
+
+<!--section friends ends-->
+
+
+
+<!--section delivery starts-->
+
+<section id = "delivery_section">
+  <div class="container">
+    <div class="row">
+      <div class = "col-xs-12 col-md-6">
+        <div class= "screen-couple-left" style="visibility:visible;">
+          <div></div>
+          <div></div>
+          <img id="deliveryphone1" class="screen above" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_above_v21.png" alt="" height="440" width="">
+          <img id="deliveryphone2" src="http://ckthemes.com/ray-woocommerce/wp-content/uploads/2014/11/screen_couple_beyond_v21.png" class="screen beyond wow fadeInLeft animated" data-animation="fadeInLeft" data-wow-delay="0.5s" height="360" alt="" width="" style="visibility: visible;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+
+        </div>
+      </div>
+      <div class = "col-xs-12 col-md-6">
+        <div class ="title title-left">
+          <h2>YOUR DIET DELIVERED TO YOUR FOOTSTEP</h2>
+
+        </div>
+        <div>
+          <p class="harness_para">Mito provides you expert-recommended diets acoording to your need and lifestyle. It's all good,really. However going to the market to get the required groceries doesn't sound like fun.</p>
+          <p class="harness_para">Mito helps you save your time and energywith its in-app grocery ordering feature. You can now get all your groceries ordered according to your customized grocery plans at the click-of-a-button.</p>
+          <p class="harness_para">We have partenered with the leading e-commerce organisatinons such as Healthkart, Grofers and Bhajiwala to get you fresh groceries all for your dietery requirements.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!--section delivery ends-->
+
+
+ <!--div id="section8"></div-->
 
 
 <div id="section9"></div>
@@ -219,13 +314,12 @@
 
 
 <script>
-    
+//for animations of phones    
 $(document).ready(function(){   
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
     var distance1=$("#fullintro").height();
-    var distance2=$("#fullintro").height()+($("#harness_section").height()/2);
-    if(distanceFromTop>(distance1/2) && distanceFromTop<((distance1/2)+50))
+    if(distanceFromTop>(distance1/1.2+50) && distanceFromTop<((distance1/1.2+50)+50))
     {
     $("#harnessphone1,#harnessphone2").show();    
     $("#harnessphone1").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1000);
@@ -237,7 +331,7 @@ $(window).scroll(function(){
 $(document).ready(function(){   
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
-    var distance2=$("#fullintro").height()+($("#harness_section").height()/1.2);
+    var distance2=$("#fullintro").height()+$("#harness_section").height()+($("#howmittoworks").height()/1.2);
     if(distanceFromTop>distance2 && distanceFromTop<(distance2+50))
         {
         $("#bouncingphone").stop(true, true).effect("slide", { direction: "down",times: 1 }, 1000);
@@ -247,6 +341,32 @@ $(window).scroll(function(){
 });
 });
     
+$(document).ready(function(){   
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    var distance3=$("#fullintro").height()+$("#harness_section").height()+$("#howmittoworks").height()+$("#features").height()+($("#are_u_on_a").height());
+    if(distanceFromTop>distance3+100 && distanceFromTop<(distance3+100)+50)
+    {
+    $("#friendsphone1,#friendsphone2").show();    
+    $("#friendsphone1").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1000);
+    $("#friendsphone2").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1300);
+    }
+});
+});
+    
+$(document).ready(function(){   
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    var distance4=$("#fullintro").height()+$("#harness_section").height()+$("#howmittoworks").height()+$("#features").height()+($("#are_u_on_a").height())+$("#friends_section").height()+$("#delivery_section").height();
+    if(distanceFromTop>distance4 && distanceFromTop<(distance4)+50)
+    {
+    $("#deliveryphone1,#deliveryphone2").show();    
+    $("#deliveryphone1").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1000);
+    $("#deliveryphone2").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1300);
+    }
+});
+});    
+//animation for phones ends   
     
 //for parallax of are_u_on_a section   
 $('#are_u_on_a').parallax({imageSrc: 'weights.jpg'});
@@ -274,9 +394,6 @@ $("#featuresbutton").click(function() {
     $("#bouncingphone").effect("bounce", { distance: 10 }, 1000);
     $("#builder-column-5476c138c37a7").effect("slide", { direction: "left" }, 1000);
     $("#builder-column-5476c13d52bfb").effect("slide", { direction: "right" }, 1000);
-                 
-    
-    
 });
 $("#areuonabutton").click(function() {
     $('html,body').animate({
@@ -290,6 +407,35 @@ var distanceFromTop = $(document).scrollTop();
 $("#areuonabutton").text(distanceFromTop);    
 });
 
+$("#howmittoworksbutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#howmittoworks").offset().top},
+        'slow');
+});
+
+$("#are_u_on_abutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#are_u_on_a").offset().top},
+        'slow');
+});
+    
+$("#friendsbutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#friends_section").offset().top},
+        'slow');
+    $("#friendsphone1").stop(true, true).effect("slide", { direction: "left",times: 1 }, 700);
+    $("#friendsphone2").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1000);
+});
+    
+$("#deliverybutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#delivery_section").offset().top},
+        'slow');
+    $("#deliveryphone1").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1000);
+    $("#deliveryphone2").stop(true, true).effect("slide", { direction: "left",times: 1 }, 1300);
+});    
+    
+//scrolling to a div through the navbar ends
 </script>
 
 </body>
